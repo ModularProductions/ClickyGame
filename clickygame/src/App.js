@@ -26,6 +26,7 @@ function shuffle(array) {
 }
 
 var newPortraits = shuffle(portraits);
+var pickedArr = [];
 
 class App extends Component {
   state = {
@@ -33,8 +34,16 @@ class App extends Component {
     score : 0
   };
 
-  shufflePortraits = id => {
-
+  selectPortrait = id => {
+    if (!pickedArr.includes(id)) {
+      this.setState({ score: this.state.score + 1 });
+      pickedArr.push(id);
+      newPortraits = shuffle(newPortraits);
+    } else {
+      this.setState({ score: 0 });
+      pickedArr = [];
+      newPortraits = shuffle(newPortraits);
+    }
   };
 
   render() {
@@ -46,6 +55,7 @@ class App extends Component {
         />
         {this.state.newPortraits.map((portrait, i) => (
           <Portrait
+            selectPortrait={this.selectPortrait}
             id={portrait.id}
             key={portrait.id}
             name={portrait.name}
