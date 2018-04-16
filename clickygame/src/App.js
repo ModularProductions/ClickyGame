@@ -4,6 +4,7 @@ import Wrapper from "./components/Wrapper/Wrapper";
 import Title from "./components/Title/Title";
 import portraits from "./portraits.json";
 import "./App.css";
+import Scoreboard from "./components/Scoreboard/Scoreboard";
 
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;
@@ -28,10 +29,10 @@ var newPortraits = shuffle(portraits);
 
 class App extends Component {
   state = {
-    newPortraits
+    newPortraits,
+    score : 0
   };
 
-  
   shufflePortraits = id => {
 
   };
@@ -40,6 +41,9 @@ class App extends Component {
     return (
       <Wrapper>
         <Title>Ocean's Shuffle</Title>
+        <Scoreboard
+          score={this.state.score}
+        />
         {this.state.newPortraits.map((portrait, i) => (
           <Portrait
             id={portrait.id}
