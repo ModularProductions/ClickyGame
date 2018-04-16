@@ -1,0 +1,68 @@
+img {
+  width: 16.8vw;
+  height: 16.8vw;
+}
+
+.portrait {
+  position: absolute;
+}
+
+.portrait[position="0"] {
+  left: 22.8vw;
+  top: 2vw;
+}
+
+.portrait[position="1"] {
+  left: 41.6vw;
+  top: 2vw;
+}
+
+.portrait[position="2"] {
+  left: 60.2vw;
+  top: 2vw;
+}
+
+.portrait[position="3"] {
+  left: 68.6vw;
+  top: 20.8vw;
+}
+
+.portrait[position="4"] {
+  left: 77vw;
+  top: 39.6vw;
+}
+
+.portrait[position="5"] {
+  left: 68.6vw;
+  top: 58.2vw;
+}
+
+.portrait[position="6"] {
+  left: 60.2vw;
+  top: 77vw;
+}
+
+.portrait[position="7"] {
+  left: 41.6vw;
+  top: 77vw;
+}
+
+.portrait[position="8"] {
+  left: 22.8vw;
+  top: 77vw;
+}
+
+.portrait[position="9"] {
+  left: 14.4vw;
+  top: 58.2vw;
+}
+
+.portrait[position="10"] {
+  left: 6vw;
+  top: 39.6vw;
+}
+
+.portrait[position="11"] {
+  left: 14.4vw;
+  top: 20.8vw;
+}

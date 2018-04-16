@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Basher",
+    "image": "images/basher.png"
+  },
+  {
+    "id": 2,
+    "name": "Danny",
+    "image": "images/danny.png"
+  },
+  {
+    "id": 3,
+    "name": "Frank",
+    "image": "images/frank.png"
+  },
+  {
+    "id": 4,
+    "name": "Linus",
+    "image": "images/linus.png"
+  },
+  {
+    "id": 5,
+    "name": "Livingston",
+    "image": "images/livingston.png"
+  },
+  {
+    "id": 6,
+    "name": "Reuben",
+    "image": "images/reuben.png"
+  },
+  {
+    "id": 7,
+    "name": "Rusty",
+    "image": "images/rusty.png"
+  },
+  {
+    "id": 8,
+    "name": "Yen",
+    "image": "images/yen.png"
+  },
+  {
+    "id": 9,
+    "name": "Saul",
+    "image": "images/saul.png"
+  },
+  {
+    "id": 10,
+    "name": "Tess",
+    "image": "images/tess.png"
+  },
+  {
+    "id": 11,
+    "name": "Turk",
+    "image": "images/turk.png"
+  },
+  {
+    "id": 12,
+    "name": "Virgil",
+    "image": "images/virgil.png"
+  }
+]
