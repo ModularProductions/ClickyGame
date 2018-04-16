@@ -63,6 +63,9 @@ class App extends Component {
             position={i}
           />
         ))}
+        <div className="instructions">
+          <p>Click on portraits to get points, but don't click the same one twice!</p>
+        </div>
       </Wrapper>
     );
   }
